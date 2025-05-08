@@ -1,8 +1,7 @@
-X=str(input("Enter Your String: "))
-
-def reverse():
+X=str(input("Enter your String: "))
+def copy(X):
     Y=""
-    for i in range (-1,-len(X)-1,-1):
+    for i in range(0,len(X),1):
         Y+=X[i]
-    print(Y)
-reverse()
+    print("Copied String: ",Y)
+copy(X)
